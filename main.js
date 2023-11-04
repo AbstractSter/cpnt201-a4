@@ -6,7 +6,9 @@ import dayjs from 'dayjs'
 
 console.log(dayjs().format('MMM D, YYYY'));
 
-const a = dayjs("2023-09-05");
+const a = startDate("2023-09-05");
+
+console.log('Number of days since the start of the program: ${daysDifference} days');
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -18,7 +20,7 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
     <h2>Today's date: ${dayjs().format('MMM D, YYYY')}</h2>
-    <h2>${dayjs()}.toNow()</h2>
+    <h2>${startDate()}.toNow()</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
