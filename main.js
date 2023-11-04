@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import dayjs from 'dayjs'
 
-console.log(dayjs().format('MMM D, YYYY'));
+const currentDate = dayjs().format('MMM D, YYYY');
+console.log('Todays date: ${currentDate}');
 
 const a = startDate("2023-09-05");
+const daysDifference = dayjs().diff(startDate, 'day');
+console.log('Number of days since Sept 5, 2023: ${daysDifference}');
 
-console.log('Number of days since the start of the program: ${daysDifference} days');
 
 document.querySelector('#app').innerHTML = `
   <div>
