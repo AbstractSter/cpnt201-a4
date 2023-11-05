@@ -5,6 +5,7 @@ import { setupCounter } from './counter.js'
 import dayjs from 'dayjs'
 
 const startDate = dayjs('2023-09-05');
+
 const daysDifference = dayjs().diff(startDate, 'day');
 
 document.querySelector('#app').innerHTML = `
