@@ -2,6 +2,7 @@
   "name": "cpnt201-a4",
   "private": true,
   "version": "0.0.0",
+  "description": "CPNT 201 - Assignment 4 - Vite Project with a Pull Request",
   "license": "MIT",
   "author": "Sterling Smith <sterling12311@gmail.com>",
   "type": "module",
