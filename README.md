@@ -3,7 +3,9 @@ CPNT 201 - Assignment 4 - Vite Project with a Pull Request
 
 ## Author: Sterling Smith
 
-## [Depolyed Github Page]()
+## [Depolyed Github Page](https://abstractster.github.io/cpnt201-a4/)
+
+## [Github Repo](https://github.com/AbstractSter/cpnt201-a4)
 
 ### Attributes
 - [Chat GPT](https://chat.openai.com/auth/login)
